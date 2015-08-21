@@ -1,1 +1,1 @@
-cpan install JSON Data::Dumper
+cpan -i JSON Data::Dumper

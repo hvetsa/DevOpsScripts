@@ -1,4 +1,4 @@
-package detectDNSEntryChanges;
+package setOperations;
 use strict;
 use warnings;
 
@@ -8,8 +8,9 @@ our @EXPORT_OK = qw(version);
 
 sub Minus {
     my ( $FileA, $FileB ) = @_;
-    
-    my ( $Minus ) = SubMinus( $FileA, $FileB);
+    my ( $Minus );
+
+    $Minus = SubMinus( $FileA, $FileB);
     
     $ReturnValue = printArraytoFile ($Minus);
     

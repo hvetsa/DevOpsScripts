@@ -1,1 +1,2 @@
+export PERL_MM_USE_DEFAULT=1
 cpan cpan YAML JSON Data::Dumper Data::Dumper::Concise Date::Parse DateTime DBD::DB2 IO::Handle LWP LWP::UserAgent Net::LDAP POSIX Time::Format Time::HiRes XML::Simple

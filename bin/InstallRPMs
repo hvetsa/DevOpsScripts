@@ -1,1 +1,1 @@
-yum install -y gcc glibc glibc.i686 cpan make git 
+yum install -y gcc glibc glibc.i686 cpan make git openldap-clients telnet curl

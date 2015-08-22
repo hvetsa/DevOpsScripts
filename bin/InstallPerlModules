@@ -1,2 +1,8 @@
+
+
+perl -MCPAN -e conf build_requires_install_policy yes
+perl -MCPAN -e conf prerequisites_policy follow
+perl -MCPAN -e conf commit
+
 export PERL_MM_USE_DEFAULT=1
-cpan cpan YAML JSON Data::Dumper Data::Dumper::Concise Date::Parse DateTime DBD::DB2 IO::Handle LWP LWP::UserAgent Net::LDAP POSIX Time::Format Time::HiRes XML::Simple
+cpan CPAN YAML JSON Data::Dumper Data::Dumper::Concise Date::Parse DateTime DBD::DB2 IO::Handle LWP LWP::UserAgent Net::LDAP POSIX Time::Format Time::HiRes XML::Simple

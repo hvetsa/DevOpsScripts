@@ -6,3 +6,7 @@ perl -MCPAN -e conf commit
 
 export PERL_MM_USE_DEFAULT=1
 cpan CPAN YAML JSON Data::Dumper Data::Dumper::Concise Date::Parse DateTime DBD::DB2 IO::Handle LWP LWP::UserAgent Net::LDAP NET::LDAPS POSIX Time::Format Time::HiRes XML::Simple
+
+cpan -u
+
+cpan -r

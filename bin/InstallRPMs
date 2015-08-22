@@ -1,1 +1,1 @@
-yum install -y gcc glibc glibc.i686 cpan
+yum install -y gcc glibc glibc.i686 cpan make git 

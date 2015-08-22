@@ -1,1 +1,1 @@
-cpan -i JSON Data::Dumper
+cpan cpan YAML JSON Data::Dumper Data::Dumper::Concise Date::Parse DateTime DBD::DB2 IO::Handle LWP LWP::UserAgent Net::LDAP POSIX Time::Format Time::HiRes XML::Simple
